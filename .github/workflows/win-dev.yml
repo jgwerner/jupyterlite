@@ -26,7 +26,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Conda
-        uses: conda-incubator/setup-miniconda@v2
+        uses: conda-incubator/setup-miniconda@v3
         with:
           environment-file: .binder/environment.yml
           miniforge-variant: Mambaforge
